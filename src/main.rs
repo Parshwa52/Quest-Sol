@@ -1,11 +1,17 @@
 fn main() {
     
-    let mut a = [1,2,3,4];
-    println!("values 1 is {}",a[0]);
+    let coin = 0;
 
-    let b = [0;10];
-    println!("values are {:?}",b);
+    if coin == 0
+    {println!("Heads");}
+    else
+    {println!("Tails");}
 
-    a[1] = 100;
-    println!("values are {:?}",a);
+    let num = 0;
+    if num>0
+    {println!("greater than 0");}
+    else if num ==0
+    {println!("Zero");}
+    else
+    {println!("Less than 0");}
 }
