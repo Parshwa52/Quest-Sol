@@ -1,17 +1,34 @@
 fn main() {
     
-    let coin = 0;
+    let mut x = 1;
+    loop{
+        x*=2;
+        if x>5000
+        {break;}
+        println!("value of x is {}",x);
+    }
 
-    if coin == 0
-    {println!("Heads");}
-    else
-    {println!("Tails");}
+    let mut y = 1;
+    while y < 5000
+    {
+        y*=2;
+        println!("value of y is {}",y);
+    }
 
-    let num = 0;
-    if num>0
-    {println!("greater than 0");}
-    else if num ==0
-    {println!("Zero");}
-    else
-    {println!("Less than 0");}
+    for i in 0..5
+    {
+        println!("I = {}",i);
+    }
+
+    for j in 0..=5
+    {
+        println!("J = {}",j);
+    }
+
+    let arr =[7,8,9];
+
+    for val in arr
+    {
+        println!("value = {}",val);
+    }
 }
