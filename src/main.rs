@@ -1,14 +1,11 @@
 fn main() {
-    println!("Hello, world!");
     
-    let a = (1,"Hello world",false);
-    println!("The values are {} {}",a.0,a.1);
+    let mut a = [1,2,3,4];
+    println!("values 1 is {}",a[0]);
 
-    let val3 = a.2;
-    println!("Third value is {}",val3);
+    let b = [0;10];
+    println!("values are {:?}",b);
 
-    //destructuring
-
-    let (val1,val2,_) = a;
-    println!("The values are {} {}",val1,val2);
+    a[1] = 100;
+    println!("values are {:?}",a);
 }
